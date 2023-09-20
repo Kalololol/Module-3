@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -25,21 +22,28 @@ public class Main {
 //        countWords.countWords("Lorem");
 //        System.out.println(countWords.countWords("Lorem"));
 
-        List<Student> students = new ArrayList<>();
-        students.add(new Student(23, 190, "Jan", "Kowalski"));
-        students.add(new Student(26, 170, "Henryk", "Burakowski"));
-        students.add(new Student(21, 190, "Jan", "Kowalski"));
-        students.add(new Student(29, 190, "Jan", "Kowalski"));
-        students.add(new Student(20, 190, "Jan", "Kowalski"));
-        System.out.println("przed sortowaniem");
-        for (Student s : students){
-            System.out.println(s);
-        }
-        Collections.sort(students);
-        System.out.println("Po sortowaniu");
-        for (Student s : students){
-            System.out.println(s);
-        }
+//        List<Student> students = new ArrayList<>();
+//        students.add(new Student(23, 190, "Jan", "Kowalski"));
+//        students.add(new Student(26, 170, "Henryk", "Burakowski"));
+//        students.add(new Student(21, 190, "Jan", "Kowalski"));
+//        students.add(new Student(29, 190, "Jan", "Kowalski"));
+//        students.add(new Student(20, 190, "Jan", "Kowalski"));
+//        System.out.println("przed sortowaniem");
+//        for (Student s : students){
+//            System.out.println(s);
+//        }
+//        Collections.sort(students);
+//        System.out.println("Po sortowaniu");
+//        for (Student s : students){
+//            System.out.println(s);
+//        }
 
+//        CountWords countWords = new CountWords();
+//        countWords.countWords1("ala ma kota. kota ma ala ala");
+//        String word = "ala ma kota. kota ma ala ala";
+//        System.out.println("String: " + word);
+//        for(Map.Entry<String, Integer> entry : countWords.countWords1(word).entrySet()){
+//            System.out.println("Klucz: " + entry.getKey() + " Ilość powtórzeń: " + entry.getValue());
+//        }
     }
 }
